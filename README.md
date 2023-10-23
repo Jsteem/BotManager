@@ -9,7 +9,7 @@ At the heart of this project is the open-source botting client, [OSRSBot](https:
 The Bot Manager, built with Spring Boot, acts as the central control hub for overseeing bot activities. External botting clients seamlessly interact with the system by making REST API calls, facilitating communication across multiple servers.
 
 
-Upon launching the botting client in [Application.java](./OSRSBot/src/main/java/net/runelite/client/), the client initiates communication with the manager. This exchange provides the client with essential login details, including proxy information, credentials, and the startup script.
+Upon launching the botting client in [Application.java](./OSRSBot/src/main/java/net/runelite/rsb/botLauncher/Application.java), the client initiates communication with the manager. This exchange provides the client with essential login details, including proxy information, credentials, and the startup script.
 
 
 
