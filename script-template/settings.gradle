@@ -1,0 +1,5 @@
+ rootProject.name = 'OSRSBot'
+ include ":OSRSBot"
+ project(":OSRSBot").projectDir = file("../OSRSBot")
+ include ":DaxWalkerRSB"
+ project(":DaxWalkerRSB").projectDir = file("../DaxWalkerOSRSBot")
