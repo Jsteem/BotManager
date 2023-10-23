@@ -16,9 +16,9 @@ Upon launching the botting client in [Application.java](./OSRSBot/src/main/java/
 ## Scripting
 
 
-This client's advantage lies in its scripting capabilities. By harnessing the power of the Java Reflection API, dynamic loading of classes at runtime becomes possible. The [script project](./script-template/) rebuilds the script files and a simple button press within [the botting client](./OSRSBot/) facilitates the loading of these new class files without the need of rebuilding the client itself.  
+This client's advantage lies in its scripting capabilities. By harnessing the power of the Java Reflection API, dynamic loading of classes at runtime becomes possible. The script project rebuilds the script files and the botting client loads these new class files without the need of rebuilding the client itself.  
 
-Within the [Script folder](./script-template/src/main/java/), a diverse array of scripts can be discovered. These scripts serve various purposes, such as leveling up accounts, completing quests, and generating in-game currency. The Bot Manager plays a pivotal role in this system, scheduling which script runs on each specific account.
+Within the [script folder](./script-template/src/main/java/), a diverse array of scripts can be discovered. These scripts serve various purposes, such as leveling up accounts, completing quests, and generating in-game currency. The Bot Manager is responsible for scheduling which script runs on each specific account.
 
 
 ## Manager
